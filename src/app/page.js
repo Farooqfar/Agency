@@ -17,20 +17,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white">
+      {/* // Nav // */}
       <section className="w-full">
         <Nav />
       </section>
+      {/* // Banner // */}
       <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col">
         <GradientText
           className="text-8xl font-bold text-center"
           colors={["#ff0080", "#7928ca", "#2afadf"]}
           animationSpeed={6}
         >
-          Optimize Your <br /> Ads For More Profit.
+          Boost Your Ads
+          <br />
+          Maximize Your Profit.
         </GradientText>
-        <p className="text-white p-10 text-xl w-[60%] text-center">
-          5+ years | 511+ Brands | 60+ Crore Ad spent A dedicated team of
-          specialists, delivering remarkable work to our clients worldwide!
+        <p className="text-white p-10 text-xl w-[65%] text-center">
+          With 1+ years of experience, 50+ brands served, and 40+ Lack in
+          managed spend, our dedicated team consistently delivers measurable
+          results for clients worldwide.
         </p>
         <Buttons>Get In Touch</Buttons>
         <p className="mt-5 text-white p-3">
@@ -42,6 +47,7 @@ export default function Home() {
           <FcGoogle className="text-5xl" />
         </div>
       </section>
+      {/* // Our Services // */}
       <section className="border-2 mt-32 w-full h-full bg-white/12 flex  flex-col justify-center items-center p-5 rounded-2xl">
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           Our Services
@@ -83,13 +89,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* // service 1 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
             title="Strategic Marketing"
-            description="Ready to give your brand the spotlight it deserves? Dive into our Paid Ads extravaganza and let your message shine in the digital universe!"
+            description="Your brand deserves more than visibility — it deserves impact. We craft campaigns that put you in the spotlight where it truly matters."
           />
           <div className="w-full mt-2 flex flex-wrap gap-5 p-3">
             <Buttons>Google Ads</Buttons>
@@ -107,6 +113,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // service 2 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full p-7">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
@@ -122,7 +129,7 @@ export default function Home() {
           <Services
             hclass="text-4xl pb-5"
             title="Eye-catchy Designs"
-            description="We craft visuals that speak to your ideal customers. Ready for an extraordinary brand transformation?"
+            description="We create visuals that captivate and connect with your audience. Are you ready to transform your brand into something unforgettable?"
           />
           <div className="w-full mt-2 flex flex-wrap gap-5 p-3">
             <Buttons>Ads</Buttons>
@@ -131,12 +138,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // service 3 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
             title="Social Media"
-            description="Ready to make your brand the talk of the social town? Dive into our Social Media Management expertise and let your brand resonate across digital platforms!"
+            description="Make your brand the conversation starter! Our Social Media Management expertise ensures your message resonates and shines across every digital platform."
           />
           <div className="w-full mt-2 flex flex-wrap gap-5 p-3">
             <Buttons>Google Ads</Buttons>
@@ -154,6 +162,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // service 4 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full p-7">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
@@ -169,7 +178,7 @@ export default function Home() {
           <Services
             hclass="text-4xl pb-5"
             title="Automation"
-            description="Automate the manual task, save the time and energy. Only focus on delivering quality."
+            description="Efficiency Meets Excellence — Automate repetitive tasks so your team can concentrate on what truly matters."
           />
           <div className="w-full mt-2 flex flex-wrap gap-5 p-3">
             <Buttons>CRM</Buttons>
@@ -178,12 +187,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // service 5 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
             title="Web Development"
-            description="From tech wizardry to seamless online experiences – enter the world of Technical Solutions. We transform digital hiccups into high-fives for your users."
+            description="Technical Solutions — Ensuring seamless online experiences by solving problems before your users even notice them."
           />
           <div className="w-full mt-2 flex flex-wrap gap-5 p-3">
             <Buttons>Website Development</Buttons>
@@ -203,6 +213,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // service 6 // */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
         <div className="w-[50%] h-full p-7">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
@@ -227,20 +238,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* // Scroll XYZ // */}
       <section className="relative w-full h-auto mt-68">
         <section className="mt-32 w-full h-auto rotate-[-8deg]  ">
           <ScrollVelocity
             texts={["Team 99", "Marketing"]}
-            className="custom-scroll-text  text-black bg-pink-500"
+            className="custom-scroll-text  text-black bg-pink-400"
           />
         </section>
         <section className="absolute top-0 mt-32 w-full h-auto rotate-6  ">
           <ScrollVelocity
             texts={["Team 99", "Marketing"]}
-            className="custom-scroll-text text-black bg-yellow-400"
+            className="custom-scroll-text text-black bg-amber-400"
           />
         </section>
       </section>
+      {/* // Our Team // */}
       <section className="w-[100%] h-auto mt-68 bg-black">
         <section className="w-full mt-44 text-center ">
           <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
@@ -254,6 +267,7 @@ export default function Home() {
           <DomeGallery />
         </section>
       </section>
+      {/* // How Its Start// */}
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-col  text-center p-5 rounded-2xl">
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           How It Starts
