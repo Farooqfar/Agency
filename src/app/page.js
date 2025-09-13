@@ -16,8 +16,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-black">
-      <section className="w-full bg-white/12 rounded-2xl">
+    <main className="w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white">
+      <section className="w-full">
         <Nav />
       </section>
       <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col">
@@ -42,7 +42,7 @@ export default function Home() {
           <FcGoogle className="text-5xl" />
         </div>
       </section>
-      <section className="mt-32 w-full h-full bg-white/12 flex  flex-col justify-center items-center p-5 rounded-2xl">
+      <section className="border-2 mt-32 w-full h-full bg-white/12 flex  flex-col justify-center items-center p-5 rounded-2xl">
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           Our Services
         </h1>
@@ -96,20 +96,28 @@ export default function Home() {
             <Buttons>Facebook Ads</Buttons>
           </div>
         </div>
-        <DotLottieReact
-          src="https://lottie.host/970516f8-4b20-43a2-bb13-463a31038eac/o8xSG5wmbK.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/970516f8-4b20-43a2-bb13-463a31038eac/o8xSG5wmbK.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
       </section>
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <DotLottieReact
-          src="https://lottie.host/1e8cd5ea-47b4-45d5-91b8-23e8b2118246/V2qRGDbCuv.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/1e8cd5ea-47b4-45d5-91b8-23e8b2118246/V2qRGDbCuv.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
@@ -135,20 +143,28 @@ export default function Home() {
             <Buttons>Facebook Ads</Buttons>
           </div>
         </div>
-        <DotLottieReact
-          src="https://lottie.host/bb9a8897-1fe5-43c3-a98a-ff85a901595f/ofrDSgn0HL.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/bb9a8897-1fe5-43c3-a98a-ff85a901595f/ofrDSgn0HL.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
       </section>
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <DotLottieReact
-          src="https://lottie.host/13732ba4-cbfc-4b32-8312-7fa4989eccc9/pKhF2pkXUu.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/13732ba4-cbfc-4b32-8312-7fa4989eccc9/pKhF2pkXUu.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
@@ -176,20 +192,28 @@ export default function Home() {
             <Buttons>Wordpress</Buttons>
           </div>
         </div>
-        <DotLottieReact
-          src="https://lottie.host/8125395d-99b5-4374-8b30-7427d5c0f6fb/Hi75tx1Fi1.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/8125395d-99b5-4374-8b30-7427d5c0f6fb/Hi75tx1Fi1.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
       </section>
       <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <DotLottieReact
-          src="https://lottie.host/267195d3-50e3-477a-ace9-14c98896279a/355r9DWZy2.lottie"
-          loop
-          autoplay
-          className="w-[50%] h-full"
-        />
+        <div className="w-[50%] h-full p-7">
+          <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
+            <DotLottieReact
+              src="https://lottie.host/267195d3-50e3-477a-ace9-14c98896279a/355r9DWZy2.lottie"
+              loop
+              autoplay
+              className="w-[100%] h-full"
+            />
+          </div>
+        </div>
         <div className="w-[50%] h-full flex items-center flex-col justify-center">
           <Services
             hclass="text-4xl pb-5"
@@ -217,15 +241,15 @@ export default function Home() {
           />
         </section>
       </section>
-      <section className="w-full h-auto mt-68">
-        <section className="w-full mt-44 text-center">
+      <section className="w-[100%] h-auto mt-68 bg-black">
+        <section className="w-full mt-44 text-center ">
           <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
             Our Team
           </h1>
         </section>
         <section
           className="mt-32 flex flex-col items-center justify-center"
-          style={{ width: "90vw", height: "70vh" }}
+          style={{ width: "100%", height: "70vh" }}
         >
           <DomeGallery />
         </section>
@@ -234,7 +258,7 @@ export default function Home() {
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           How It Starts
         </h1>
-        <div className="mt-20 p-10 flex gap-10">
+        <div className="w-full h-full mt-20 p-10 flex gap-10">
           <div className="w-[50%] text-start flex flex-col gap-10">
             <Services
               hclass="text-3xl pb-2"
@@ -258,13 +282,14 @@ export default function Home() {
               iclass="font-bold"
             />
           </div>
-
-          <DotLottieReact
-            src="https://lottie.host/743bd107-fc28-4950-8600-5909fe677dd1/AEb6R5VrBQ.lottie"
-            loop
-            autoplay
-            className="w-[50%] h-full"
-          />
+          <div className="w-[50%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl flex justify-center items-center">
+            <DotLottieReact
+              src="https://lottie.host/743bd107-fc28-4950-8600-5909fe677dd1/AEb6R5VrBQ.lottie"
+              loop
+              autoplay
+              className="w-[50%] h-full"
+            />
+          </div>
         </div>
       </section>
       <section></section>
