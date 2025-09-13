@@ -213,7 +213,7 @@ export default function Home() {
         <section className="absolute top-0 mt-32 w-full h-auto rotate-6  ">
           <ScrollVelocity
             texts={["Team 99", "Marketing"]}
-            className="custom-scroll-text text-black/70 bg-yellow-500"
+            className="custom-scroll-text text-black bg-yellow-400"
           />
         </section>
       </section>
