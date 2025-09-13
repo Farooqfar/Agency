@@ -203,7 +203,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="relative w-full h-auto">
+      <section className="relative w-full h-auto mt-68">
         <section className="mt-32 w-full h-auto rotate-[-8deg]  ">
           <ScrollVelocity
             texts={["Team 99", "Marketing"]}
@@ -217,7 +217,7 @@ export default function Home() {
           />
         </section>
       </section>
-      <section className="w-full h-auto">
+      <section className="w-full h-auto mt-68">
         <section className="w-full mt-44 text-center">
           <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
             Our Team
