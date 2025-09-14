@@ -32,7 +32,7 @@ export default function Home() {
           <br />
           Maximize Your Profit.
         </GradientText>
-        <p className="text-white p-10 text-xl w-[65%] text-center">
+        <p className="text-white p-10 text-xl w-[65%] text-center max-lg:w-[90%]">
           With 1+ years of experience, 50+ brands served, and 40+ Lack in
           managed spend, our dedicated team consistently delivers measurable
           results for clients worldwide.
@@ -52,8 +52,8 @@ export default function Home() {
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           Our Services
         </h1>
-        <div className="w-[100%] flex gap-8 p-20">
-          <div className="w-[50%] flex flex-col gap-14 mt-10">
+        <div className="w-[100%] flex gap-8 p-20 max-lg:flex-col">
+          <div className="w-[50%] flex flex-col gap-14 mt-10 max-lg:w-[100%]">
             <Services
               icon={<HiOutlineSpeakerphone />}
               title="Strategic Marketing"
@@ -70,7 +70,7 @@ export default function Home() {
               description="Boost your online swagger! We’ll spruce up your website so Google has no choice but to be your biggest fan."
             />
           </div>
-          <div className="w-[50%] flex flex-col gap-14 mt-10">
+          <div className="w-[50%] flex flex-col gap-14 mt-10 max-lg:w-[100%]">
             <Services
               icon={<HiOutlineSpeakerphone />}
               title="Strategic Marketing"
@@ -90,8 +90,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 1 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Strategic Marketing"
@@ -102,7 +102,7 @@ export default function Home() {
             <Buttons>Facebook Ads</Buttons>
           </div>
         </div>
-        <div className="w-[50%] h-full p-7">
+        <div className="w-[50%] h-full p-7  max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/970516f8-4b20-43a2-bb13-463a31038eac/o8xSG5wmbK.lottie"
@@ -114,8 +114,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 2 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full p-7">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full p-7 max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/1e8cd5ea-47b4-45d5-91b8-23e8b2118246/V2qRGDbCuv.lottie"
@@ -125,7 +125,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Eye-catchy Designs"
@@ -139,8 +139,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 3 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Social Media"
@@ -151,7 +151,7 @@ export default function Home() {
             <Buttons>Facebook Ads</Buttons>
           </div>
         </div>
-        <div className="w-[50%] h-full p-7">
+        <div className="w-[50%] h-full p-7 max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/bb9a8897-1fe5-43c3-a98a-ff85a901595f/ofrDSgn0HL.lottie"
@@ -163,8 +163,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 4 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full p-7">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full p-7 max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/13732ba4-cbfc-4b32-8312-7fa4989eccc9/pKhF2pkXUu.lottie"
@@ -174,7 +174,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Automation"
@@ -188,8 +188,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 5 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Web Development"
@@ -202,7 +202,7 @@ export default function Home() {
             <Buttons>Wordpress</Buttons>
           </div>
         </div>
-        <div className="w-[50%] h-full p-7">
+        <div className="w-[50%] h-full p-7 max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/8125395d-99b5-4374-8b30-7427d5c0f6fb/Hi75tx1Fi1.lottie"
@@ -214,8 +214,8 @@ export default function Home() {
         </div>
       </section>
       {/* // service 6 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl">
-        <div className="w-[50%] h-full p-7">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+        <div className="w-[50%] h-full p-7 max-lg:w-[100%]">
           <div className="w-[100%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl">
             <DotLottieReact
               src="https://lottie.host/267195d3-50e3-477a-ace9-14c98896279a/355r9DWZy2.lottie"
@@ -225,7 +225,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-[50%] h-full flex items-center flex-col justify-center">
+        <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
             title="Robust SEO"
@@ -268,12 +268,12 @@ export default function Home() {
         </section>
       </section>
       {/* // How Its Start// */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-col  text-center p-5 rounded-2xl">
+      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-col  text-center p-5 rounded-2xl max-lg:h-auto">
         <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
           How It Starts
         </h1>
-        <div className="w-full h-full mt-20 p-10 flex gap-10">
-          <div className="w-[50%] text-start flex flex-col gap-10">
+        <div className="w-full h-full mt-20 p-10 flex gap-10 max-lg:flex-col">
+          <div className="w-[50%] text-start flex flex-col gap-10 max-lg:w-[100%]">
             <Services
               hclass="text-3xl pb-2"
               title="Plan Your Growth"
@@ -296,7 +296,7 @@ export default function Home() {
               iclass="font-bold"
             />
           </div>
-          <div className="w-[50%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl flex justify-center items-center">
+          <div className="w-[50%] h-full bg-gradient-to-l to-pink-500 from-orange-400 rounded-2xl flex justify-center items-center max-lg:w-[100%]">
             <DotLottieReact
               src="https://lottie.host/743bd107-fc28-4950-8600-5909fe677dd1/AEb6R5VrBQ.lottie"
               loop
