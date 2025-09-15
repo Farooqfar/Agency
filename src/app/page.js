@@ -12,17 +12,16 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import ScrollVelocity from "@/components/ScrollVelocity";
 import DomeGallery from "@/components/DomeGallery";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white">
+    <main className="relative w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white">
       {/* // Nav // */}
       <section className="w-full">
         <Nav />
       </section>
       {/* // Banner // */}
-      <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col">
+      <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col z-0 bg-transparent">
         <GradientText
           className="text-8xl font-bold text-center"
           colors={["#ff0080", "#7928ca", "#2afadf"]}
@@ -90,7 +89,10 @@ export default function Home() {
         </div>
       </section>
       {/* // service 1 // */}
-      <section className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col">
+      <section
+        id="service"
+        className="mt-32 w-full h-[600px] bg-white/12 flex  flex-row justify-center items-center p-5 rounded-2xl max-lg:flex-col"
+      >
         <div className="w-[50%] h-full flex items-center flex-col justify-center max-lg:w-[100%]">
           <Services
             hclass="text-4xl pb-5"
@@ -254,7 +256,7 @@ export default function Home() {
         </section>
       </section>
       {/* // Our Team // */}
-      <section className="w-[100%] h-auto mt-68 bg-black">
+      <section id="team" className="w-[100%] h-auto mt-68 bg-black">
         <section className="w-full mt-44 text-center ">
           <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
             Our Team
@@ -306,7 +308,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section></section>
     </main>
   );
 }
