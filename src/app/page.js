@@ -15,11 +15,11 @@ import DomeGallery from "@/components/DomeGallery";
 
 export default function Home() {
   return (
-    <main className="relative w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white">
+    <main className="relative w-full h-full flex flex-col justify-center items-center pl-20 pr-20 pt-4 selection:bg-pink-500 selection:text-white max-md:pl-5 max-md:pr-5">
       {/* // Nav // */}
-      <section className="w-full">
+      <header className="w-full">
         <Nav />
-      </section>
+      </header>
       {/* // Banner // */}
       <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col z-0 bg-transparent">
         <GradientText
@@ -48,10 +48,10 @@ export default function Home() {
       </section>
       {/* // Our Services // */}
       <section className="border-2 mt-32 w-full h-full bg-white/12 flex  flex-col justify-center items-center p-5 rounded-2xl">
-        <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text">
+        <h1 className="mt-5 text-6xl font-black bg-gradient-to-r from-[#ff0080] to-[#7928ca] text-transparent bg-clip-text max-md:text-center">
           Our Services
         </h1>
-        <div className="w-[100%] flex gap-8 p-20 max-lg:flex-col">
+        <div className="w-[100%] flex gap-8 p-20 max-lg:flex-col max-md:p-4">
           <div className="w-[50%] flex flex-col gap-14 mt-10 max-lg:w-[100%]">
             <Services
               icon={<HiOutlineSpeakerphone />}
