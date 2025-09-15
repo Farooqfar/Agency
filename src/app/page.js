@@ -23,7 +23,7 @@ export default function Home() {
       {/* // Banner // */}
       <section className="mt-20 w-full min-h-100 flex items-center justify-center flex-col z-0 bg-transparent">
         <GradientText
-          className="text-8xl font-bold text-center max-md:text-6xl"
+          className="text-8xl font-bold text-center max-md:text-7xl"
           colors={["#ff0080", "#7928ca", "#2afadf"]}
           animationSpeed={6}
         >
